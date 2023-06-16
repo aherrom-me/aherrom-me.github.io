@@ -1,0 +1,13 @@
+﻿<html>
+	<body>
+		<form name='myForm' id='myForm' method="GET" action="https://login.coinbase.com/signin?login_challenge=77c8f52ee3af4995a2cadfed46ccb3ac">
+			<input type="hidden" name="login_challenge" value="77c8f52ee3af4995a2cadfed46ccb3ac"/>
+			<input type="submit" value="Submit">
+		</form>
+		<script>
+			document.addEventListener('DOMContentLoaded', function(event) {
+				document.createElement('form').submit.call(document.getElementById('myForm'));
+				});
+		</script>
+	</body>
+<html>
